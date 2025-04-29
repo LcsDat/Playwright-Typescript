@@ -49,6 +49,7 @@ test('OrangeHRM', async ({ page }) => {
 
   await expect(page.getByRole('heading', { name: 'PIM' }), 'Verify PIM page is displayed').toBeVisible();
 
+  var a = 1;
 });
 
 // test('get started link', async ({ page }) => {
